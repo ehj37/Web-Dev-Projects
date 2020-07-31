@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sockets test</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <link href="./styles.css" rel="stylesheet">
+  <script defer src="app.js"></script>
+  <script src="https://kit.fontawesome.com/8536b1e862.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="name-prompt active">
+    <form id="name-input">
+      <input type="text" placeholder="Enter your name" maxlength="20" minlength="1">
+      <button>Submit</button>
+    </form>
+    <div class="error-box">
+    </div>
+  </div>
+  <div class="info-box">
+    <div class="info">
+      <div class="title">The Number Game</div>
+      <div class="demo-img">
+        <img src="Demo Screen.png">
+      </div>
+      <div class="game-rules">
+        <p>
+          You open your eyes. You have no clue where you are, and you feel a dull, throbbing pain in your head. As you
+          come to your senses, you sit up. You're greeted by the sight of a camp fire, and basked in its warm glow you
+          can make out a number of silhouetted figures along its perimeter. You recognize none of them. You call out,
+          but nobody seems to hear. Frustrated, you attempt to get up, only to find that you can't. Suddenly, amidst the
+          fire's crackles and hisses, you hear a voice. "One," it says loudly. Another chimes in. "Two". "Three," you
+          say before you can stop yourself. "Four" says another. "Five". Suddenly, the word "six" rings out from two
+          members of the circle. You scowl at them. Once again, silence befalls the group. You can feel the rage
+          building up inside of you. To think, you could have made it to seven if not for that careless blunder. Cutting
+          through the silence like a blade, a voice sings through the night: "one". "Two," you say. "Three". "Four". And
+          so on...
+        </p>
+        <p>
+          "The number game," as I call it, it a dumb game to be played when there's no conversation to be had. The
+          group's goal is to count up from zero. Anybody can start by saying "one", and then a different member of the
+          group chimes in with "two". No member of the group can say two numbers in a row (i.e. someone can't rattle off
+          "onetwothreefourfivesix" to advance the counter), and no coordination can be made relating to who says what
+          when. This counting up continues until someone says a number that breaks the sequence, at which point the
+          counter resets to zero. This game is best played with a large group, as it becomes more and more difficult to
+          gauge when there's an opening to advance the counter without coming into conflict with someone else's attempt.
+        </p>
+      </div>
+      <div class="details">Made by Evan Johnson, 2020.</div>
+    </div>
+    <div class="dropdown-bar">
+      <div class="chevron">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </div>
+  <div class="input-field">
+    <div class="current-streak"></div>
+    <form id="input-box">
+      <input type="number" min="1" placeholder="Enter a number">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="chat-window">
+    <div class="window-title">
+      <h2>Game History</h2>
+    </div>
+    <div class="chat-entries">
+
+    </div>
+  </div>
+</body>
+
+</html>
