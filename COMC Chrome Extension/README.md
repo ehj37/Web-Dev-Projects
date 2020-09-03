@@ -16,4 +16,4 @@ Select this folder.
 
 Voila! Go to the COMC inventory manager to find a helpful new button!
 
-To remove this extension go to chrome://extensions/ and either remove it or press the button in the lower right-hand corner.
+To disable this extension go to chrome://extensions/ and either remove it or press the button in the lower right-hand corner.
