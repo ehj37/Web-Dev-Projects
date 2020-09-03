@@ -1,0 +1,17 @@
+{
+  "name": "COMC Chrome Extension",
+  "version": "1.0",
+  "description": "A tool for identifying your outpriced cards.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://www.comc.com/Manage/Inventory",
+        "https://www.comc.com/Manage/Inventory?filter=attention"
+      ]
+    }
+  ]
+}
