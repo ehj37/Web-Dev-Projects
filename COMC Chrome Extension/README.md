@@ -4,7 +4,7 @@ As a seller on COMC, checking to see which of your cards have been outpriced is 
 
 This Chrome extension improves this experience by adding a button to the inventory manager that, when clicked, only displays your cards that have been outpriced.
 
-To use this extension, first download the ‘COMC Chrome Extension’ zip, unzip it, and place the folder somewhere you'll remember.
+To use this extension, first download the ‘Web-Dev-Projects’ zip, unzip it, and place the 'COMC Chrome Extension' folder somewhere you'll remember.
 
 Next, head to chrome://extensions/.
 
@@ -14,4 +14,6 @@ Next, in the upper left-hand corner, click ‘Load unpacked’ and navigate to t
 
 Select this folder.
 
-And voila! Go to the COMC inventory manager to find a helpful new button!
+Voila! Go to the COMC inventory manager to find a helpful new button!
+
+To remove this extension go to chrome://extensions/ and either remove it or press the button in the lower right-hand corner.
