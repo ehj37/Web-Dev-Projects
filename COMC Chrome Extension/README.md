@@ -17,3 +17,5 @@ Select this folder.
 Voila! Go to the COMC inventory manager to find a helpful new button!
 
 To disable this extension go to chrome://extensions/ and either remove it or press the button in the lower right-hand corner.
+
+WARNING: The trick of entering ** in the price window doesn't work as expected when non-outpriced cards have been hidden. 
